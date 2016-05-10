@@ -1,3 +1,8 @@
+
+# AlexaPi tweaks
+Just a fork for me to mess around with the code and impliment things
+
+Everything below here is from the original 
 # AlexaPi
  
 ---
