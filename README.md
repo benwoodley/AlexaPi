@@ -74,7 +74,36 @@ The internet_on() routine is testing the connection to the Amazon auth server as
 
 The auth token is generated from the request_token the auth_token is then stored in a local memcache with and expiry of just under an hour to align with the validity at Amazon, if the function fails to get an access_token from memcache it will then request a new one from Amazon using the refresh token.
 
+body{
+	font: normal normal normal small/normal Helvetica, serif;
+    content: '';
+    position: absolute;
+    z-index: -1;  
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4); 
+    width: 80%; 
+    left: 10%; 
+    padding-top: 10%;
+    padding-bottom: 3%;
+    bottom: -313%;
+}
+h1, h2, dl, p, ol ol, ul ul, ol, ul, dt, cite, blockquote {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+h1, blockquote {
+    text-align: center;
+}
 
+h2, dl, p, ol ol, ul ul, ol, ul, dt, cite {
+    text-align: justify;
+}
+dt, blockquote {
+    font-weight: bold;
+}
+ul, ol {
+    margin-left: 1.5%;
+}
+Just some stuff I needed to store, has no relevance and ill delete later
 
 
 
